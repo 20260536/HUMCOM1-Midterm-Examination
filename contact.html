@@ -24,7 +24,7 @@
             <fieldset>
                 <legend>Contact Details</legend>
                 <p><label for="name">Full Name</label></p>
-                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="text" id="name" placeholder="Full Name" required minlength="3">
                 <p><label for="email">Email Address</label></p>
                 <input type="email" id="email" placeholder="Email Address" required>
                 <p><label for="topic">Inquire Topic</label></p>
@@ -35,7 +35,8 @@
                     <option>Open Inquiry</option>
                 </select>
                 <p><label for="message">Message</label></p>
-                <textarea rows="7" cols="50" placeholder="How can I Help You?"></textarea>
+                <textarea rows="4" cols="50" placeholder="How can I Help You?"></textarea><br>
+                <button type="submit">Submit</button>
             </fieldset>
         </form>
     </main>
